@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PurposeCollectionViewCellID" id="gTV-IL-0wX" customClass="PurposeCollectionViewCell" customModule="arr_ios" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="257" height="151"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="257" height="151"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ibu-ma-0vv">
+                        <rect key="frame" x="0.0" y="0.0" width="257" height="151"/>
+                        <color key="backgroundColor" red="0.91781002280000001" green="0.91850668189999995" blue="0.91791790719999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.86303263900000005" green="0.1881216168" blue="0.18692174550000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <state key="normal" title="Group Project">
+                            <color key="titleColor" red="0.56480282550000005" green="0.56528389450000005" blue="0.57997411489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Ibu-ma-0vv" secondAttribute="bottom" id="Qdp-B3-EKz"/>
+                <constraint firstItem="Ibu-ma-0vv" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="S1V-zI-bmv"/>
+                <constraint firstItem="Ibu-ma-0vv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="p3i-4J-l6d"/>
+                <constraint firstAttribute="trailing" secondItem="Ibu-ma-0vv" secondAttribute="trailing" id="xf4-lb-zCs"/>
+            </constraints>
+            <size key="customSize" width="257" height="151"/>
+            <connections>
+                <outlet property="purposeButton" destination="Ibu-ma-0vv" id="jrI-1j-mG4"/>
+            </connections>
+            <point key="canvasLocation" x="221.01449275362322" y="127.56696428571428"/>
+        </collectionViewCell>
+    </objects>
+</document>
